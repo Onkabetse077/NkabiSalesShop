@@ -112,6 +112,7 @@
             this.lblX_Main.Size = new System.Drawing.Size(57, 50);
             this.lblX_Main.TabIndex = 2;
             this.lblX_Main.Text = "X";
+            this.lblX_Main.Click += new System.EventHandler(this.lblX_Main_Click);
             // 
             // lblInitialPrices_Main
             // 
@@ -140,6 +141,7 @@
             this.btnCalculatePrice_Main.TabIndex = 2;
             this.btnCalculatePrice_Main.Text = "Calculate Sales Day Prices";
             this.btnCalculatePrice_Main.UseVisualStyleBackColor = true;
+            this.btnCalculatePrice_Main.Click += new System.EventHandler(this.btnCalculatePrice_Main_Click);
             // 
             // lblPD1_Main
             // 
